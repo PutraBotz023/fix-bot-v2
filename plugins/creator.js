@@ -9,8 +9,7 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let teksnomor = `${htki} *OWNER* ${htka}
 ✦ @${nomorown.split`@`[0]} ✦
 ------- ${nameown} -------
-lebih simpel
-wa.me/6282146218274
+
 📮 *Note:*
 • Save ae ownernya gnteng uih🗿
 • Owner berhak blockir tanpa alasan

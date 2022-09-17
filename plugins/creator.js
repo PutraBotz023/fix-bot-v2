@@ -9,9 +9,10 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
   let teksnomor = `${htki} *OWNER* ${htka}
 ✦ @${nomorown.split`@`[0]} ✦
 ------- ${nameown} -------
-
+lebih simpel
+wa.me/6282146218274
 📮 *Note:*
-• Owner tidak menerima save contact
+• Save ae ownernya gnteng uih🗿
 • Owner berhak blockir tanpa alasan
 • Berbicaralah yang sopan & tidak spam
 • Owner Hanya merespon yang berkaitan dengan BOT
@@ -20,16 +21,16 @@ let handler  = async (m, { conn, command, args, usedPrefix, DevMode }) => {
 //------------ BIO
 let ppown = await conn.profilePictureUrl(nomorown + '@s.whatsapp.net', 'image').catch(_ => hwaifu[1]) 
 let teksbio = `${htki} *BIODATA* ${htka}
-${htjava} *💌 Nama* : WH-MODS-Dev
-${htjava} *✉️ Nama RL* : HAMBA ALLAH
+${htjava} *💌 Nama* : RIELLGANZZ-DEV
+${htjava} *✉️ Nama RL* : ELL
 ${htjava} *♂️ Gender* : Boys
 ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
-${htjava} *🎨 Umur* : 18
-${htjava} *🧮 Kelas* : SUDAH TAMAT
-${htjava} *🧩 Hobby* : MODIFIKASI WHATSAPP "MODDER WHATSAPP"
+${htjava} *🎨 Umur* : 16
+${htjava} *🧮 Kelas* : 1 SMK
+${htjava} *🧩 Hobby* : NGODING SCRIPT,NONTON YOUTUBE , MAKAN , TIDUR🗿"
 ${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
-${htjava} *🗺️ Tinggal* : Indo, Depok, Jawa Barat
+${htjava} *🗺️ Tinggal* : Indo, Kaltim, Samarinda
 ${htjava} *❤️ Waifu* : -
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}

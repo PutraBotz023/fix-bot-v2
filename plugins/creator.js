@@ -28,10 +28,10 @@ ${htjava} *🕋 Agama* : Islam
 ${htjava} *⏰ Tanggal lahir* : Private 🥶
 ${htjava} *🎨 Umur* : 16
 ${htjava} *🧮 Kelas* : 1 SMK
-${htjava} *🧩 Hobby* : NGODING SCRIPT,NONTON YOUTUBE , MAKAN , TIDUR🗿"
+${htjava} *🧩 Hobby* : NGODING SCRIPT,NGEBOT,NONTON YOUTUBE , MAKAN , TIDUR🗿"
 ${htjava} *💬 Sifat* : ASIK DAH KALAU DAH KENAL
 ${htjava} *🗺️ Tinggal* : Indo, Kaltim, Samarinda
-${htjava} *❤️ Waifu* : -
+${htjava} *❤️ Waifu* : gasuka waifu , sukanya kamu🗿🙏
 
 ${htjava} *📷 ɪɴsᴛᴀɢʀᴀᴍ* : ${sig}
 ${htjava} *🐈 ɢɪᴛʜᴜʙ:* ${sgh}

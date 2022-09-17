@@ -54,7 +54,7 @@ const defaultMenu = {
 let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 	let tags
 	let teks = `${args[0]}`.toLowerCase()
-  let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'logo', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
+  let arrayMenu = ['all', 'anime', 'update', 'maker', 'berita', 'edukasi', 'news', 'random', 'game', 'xp', 'islamic', 'stiker', 'rpg', 'kerangajaib', 'quotes', 'admin', 'group', 'premium', 'internet', 'anonymous', 'nulis', 'downloader', 'tools', 'fun', 'database','quran', 'vote', 'nsfw', 'audio', 'jadibot', 'info', 'owner', 'nocategory']
   if (!arrayMenu.includes(teks)) teks = '404'
   if (teks == 'all') tags = {
   'main': 'Main',
@@ -77,7 +77,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   'tools': 'Tools',
   'nulis': 'MagerNulis & Logo',
   'audio': 'Audio',
-  'logo': 'Logo Menu',
   'maker': 'Maker',
   'berita': 'Berita',
   'database': 'Database',
@@ -158,9 +157,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   }
   if (teks == 'vote') tags = {
     'vote': 'Voting',
-  }
-  if (teks == 'logo') tags = {
-    'logo': 'Logo Menu',
   }
   if (teks == 'absen') tags = {
     'absen': 'Absen'
@@ -252,7 +248,6 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
   {title: `🌎 ${pmenus} Berita`, rowId: ".? berita", description: "Cari berita terupdate"},
 	{title: `📩 ${pmenus} Downloaders`, rowId: ".? downloader", description: "Download sesuatu diBOT"},
 	{title: `🎨 ${pmenus} Stikers`, rowId: ".? stiker", description: "Buat Sticker diBOT"},
-	{title: `🎨 ${pmenus} Logo`, rowId: ".? logo", description: "Buat Logo Kamu diBOT"},
 	{title: `✏️ ${pmenus} Nulis`, rowId: ".? nulis", description: "Nulis kok males kak?"},
 	{title: `🎧 ${pmenus} Audio`, rowId: ".? audio", description: "Ubah Audio dengan Filter"},
   {title: `🎧 ${pmenus} Sound Menu`, rowId: ".soundmenu", description: "Kumpulan 120 Sound"},
@@ -269,36 +264,36 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
-┌–––––––––––––––––✥
-│「 Hai Kak👋 」
-└┬❖ 「 ${conn.getName(m.sender)} 」
-┌┤❀  Bagaimana Harimu? 😄
-┊│❀  Terima Kasih Telah Menggunakan Bot Kami
+┌–––––––––––––––––☯︎
+│「 Hi tod👋 」
+└┬༒︎ 「 ${conn.getName(m.sender)} 」
+┌┤☠︎︎  𝘚𝘌𝘔𝘖𝘎𝘈 𝘩𝘢𝘳𝘪𝘮𝘶 𝘴𝘦𝘮𝘢𝘬𝘪𝘯 𝘕𝘛 𝘠𝘈𝘏 😄
+┊│☠︎︎ Terima Kasih Telah Menggunakan Bot Kami
 │└────────────┈ ⳹
-┊   「 *U s e r  I n f o 克* 」
-┊↬✗• *ɴᴀᴍᴇ:* ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-┊↬✗• *ᴛᴀɢs:* @${m.sender.split`@`[0]}
-┊↬✗• *sᴛᴀᴛᴜs:* ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┊↬✗• *ᴘʀᴇᴍɪᴜᴍ:* ${usrs.premiumTime > 1 ? 'Yes': 'No'}
-┗–––––––––––––––––✥
-┌–––––––––––––––––✥
-┊   「 *S t a t u s  I n f o 比* 」
-┊↬✗• *ᴜᴘᴛɪᴍᴇ:* ${mpt}
-┊↬✗• *ᴛɪᴍᴇ:* ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
-┊↬✗• *ᴜsᴇʀs:* ${Object.keys(global.db.data.users).length}
-┊↬✗• *ʟɪᴍɪᴛ:* ${usrs.limit}
-┊↬✗• *ʟᴇᴠᴇʟ:* ${usrs.level}
-┊↬✗• *ʀᴏʟᴇ:* ${usrs.role}${usrs.premiumTime > 1 ? `
-┗––––––––––––––––––✥
-┊↬✗• *ᴇxᴘɪʀᴇᴅ ᴘʀᴇᴍɪᴜᴍ:*
+┊   「 ᑌՏᗴᖇ IᑎᖴO ⌨︎ 」
+┊➪✩• 𝙉𝘼𝙈𝘼: ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+┊➪✩• 𝙏𝘼𝙂𝙎: @${m.sender.split`@`[0]}
+┊➪✩• 𝙎𝙏𝘼𝙏𝙐𝙎: ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+┊➪✩• 𝙋𝙍𝙀𝙈𝙄𝙐𝙈: ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+┗–––––––––––––––––☯︎
+┌–––––––––––––––––☯︎
+┊   「 ՏTᗩTᑌՏ IᑎᖴO ✵ 」
+┊↬✗• 𝙐𝙋𝙏𝙄𝙈𝙀: ${mpt}
+┊↬✗• 𝙏𝙄𝙈𝙀: ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
+┊↬✗• 𝙐𝙎𝙀𝙍: ${Object.keys(global.db.data.users).length}
+┊↬✗• 𝙇𝙄𝙈𝙄𝙏: ${usrs.limit}
+┊↬✗• 𝙇𝙀𝙑𝙀𝙇: ${usrs.level}
+┊↬✗• 𝙍𝙊𝙇𝙀: ${usrs.role}${usrs.premiumTime > 1 ? `
+┗––––––––––––––––––☯︎
+┊↬✗• 𝙀𝙓𝙋𝙄𝙍𝙀𝘿 𝙋𝙍𝙀𝙈𝙄𝙐𝙈:
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
 `
 const listMessage = {
   text: tek,
-  footer: '📮 *Note:* Jika menemukan bug, error atau kesulitan dalam penggunaan silahkan laporkan/tanyakan kepada Owner',
+  footer: '🔱 𝙆𝙃𝙐𝙍𝙐𝙎𝙃𝙄-𝙈𝘿 | 𝘼𝙇𝙇 𝙍𝙀𝙑𝙀𝙍𝙎𝙀𝘿',
   mentions: await conn.parseMention(tek),
   title: `${htki} *LIST MENU* ${htka}`,
-  buttonText: `CLICK HERE ⎙`, 
+  buttonText: `KLIK DISINI `, 
   sections
 }
   if (teks == '404') {

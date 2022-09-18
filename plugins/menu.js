@@ -216,21 +216,21 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     let mpt = clockString(_mpt)
       const sections = [
    {
-	title: `${htki} MAIN ${htka}`,
+	title: `${htki} 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧 ${htka}`,
 	rows: [
 	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon BOT"},
 	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
 	    {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
 	]
     },{
-	title: `${htki} SUPPORT ${htka}`,
+	title: `${htki} 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗠𝗘 ${htka}`,
 	rows: [
 	    {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
 	    {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
 	    {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
 	]
 	},{
-	title: `${htki} MENU ${htka}`,
+	title: `${htki} 𝗠𝗘𝗡𝗨 ${htka}`,
 	rows: [
 	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
@@ -265,25 +265,33 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
 let usrs = db.data.users[m.sender]
 let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┌–––––––––––––––––☯︎
-│「 Hi tod👋 」
+│「 𝐇𝐢 𝐭𝐨𝐝👋 」
 └┬༒︎ 「 ${conn.getName(m.sender)} 」
 ┌┤☠︎︎  𝘚𝘌𝘔𝘖𝘎𝘈 𝘩𝘢𝘳𝘪𝘮𝘶 𝘴𝘦𝘮𝘢𝘬𝘪𝘯 𝘕𝘛 𝘠𝘈𝘏 😄
 ┊│☠︎︎ Terima Kasih Telah Menggunakan Bot Kami
-│└────────────┈ ⳹
-┊   「 ᑌՏᗴᖇ IᑎᖴO ⌨︎ 」
-┊➪✩• 𝙉𝘼𝙈𝘼: ${usrs.registered ? usrs.name : conn.getName(m.sender)}
-┊➪✩• 𝙏𝘼𝙂𝙎: @${m.sender.split`@`[0]}
-┊➪✩• 𝙎𝙏𝘼𝙏𝙐𝙎: ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
-┊➪✩• 𝙋𝙍𝙀𝙈𝙄𝙐𝙈: ${usrs.premiumTime > 1 ? 'Yes': 'No'}
+│└────────────────────┈ ⳹
+│   「 𝐛𝐨𝐭 𝐢𝐧𝐟𝐨 」
+│ ⬡ 𝐮𝐩𝐭𝐢𝐦𝐞 : ${mpt}
+│ ⬡ 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐛𝐨𝐭 : Panel/RDP
+│ ⬡ 𝐛𝐚𝐢𝐥𝐞𝐲𝐬 𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 4.4.0
+│ ⬡ 𝐝𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : %rtotalreg dari %totalreg
+│ ⬡ 𝐦𝐞𝐦𝐨𝐫𝐲 𝐮𝐬𝐞𝐝 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+┗────────────────────┈ ⳹
+┗ ────────────────────┈ ⳹
+┊   「 𝐮𝐬𝐞𝐫 𝐢𝐧𝐟𝐨 ︎ 」
+┊➪✩• 𝐧𝐚𝐦𝐚: ${usrs.registered ? usrs.name : conn.getName(m.sender)}
+┊➪✩• 𝐭𝐚𝐠𝐬: @${m.sender.split`@`[0]}
+┊➪✩• 𝐬𝐭𝐚𝐭𝐮𝐬: ${m.sender.split`@`[0] == nomorown ? 'Developer' : (usrs.premiumTime >= 1 ? 'Premium User' : 'Free User')}
+┊➪✩• 𝐩𝐫𝐞𝐦𝐢𝐮𝐦: ${usrs.premiumTime > 1 ? 'Yes': 'No'}
 ┗–––––––––––––––––☯︎
 ┌–––––––––––––––––☯︎
-┊   「 ՏTᗩTᑌՏ IᑎᖴO ✵ 」
-┊↬✗• 𝙐𝙋𝙏𝙄𝙈𝙀: ${mpt}
-┊↬✗• 𝙏𝙄𝙈𝙀: ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
-┊↬✗• 𝙐𝙎𝙀𝙍: ${Object.keys(global.db.data.users).length}
-┊↬✗• 𝙇𝙄𝙈𝙄𝙏: ${usrs.limit}
-┊↬✗• 𝙇𝙀𝙑𝙀𝙇: ${usrs.level}
-┊↬✗• 𝙍𝙊𝙇𝙀: ${usrs.role}${usrs.premiumTime > 1 ? `
+┊   「 𝐬𝐭𝐚𝐭𝐮𝐬 𝐢𝐧𝐟𝐨 」
+┊➪☆• 𝐮𝐩𝐭𝐢𝐦𝐞: ${mpt}
+┊➪☆• 𝐭𝐢𝐦𝐞: ${moment.tz('Asia/Jakarta').format('HH')} H  ${moment.tz('Asia/Jakarta').format('mm')} M  ${moment.tz('Asia/Jakarta').format('ss')} S
+┊➪☆• 𝐮𝐬𝐞𝐫: ${Object.keys(global.db.data.users).length}
+┊➪☆• 𝐥𝐢𝐦𝐢𝐭: ${usrs.limit}
+┊➪☆• 𝐥𝐞𝐯𝐞𝐥: ${usrs.level}
+┊➪✩• 𝐫𝐨𝐥𝐞: ${usrs.role}${usrs.premiumTime > 1 ? `
 ┗––––––––––––––––––☯︎
 ┊↬✗• 𝙀𝙓𝙋𝙄𝙍𝙀𝘿 𝙋𝙍𝙀𝙈𝙄𝙐𝙈:
 ${clockStringP(usrs.premiumTime - new Date())}` : ''}
@@ -292,7 +300,7 @@ const listMessage = {
   text: tek,
   footer: '🔱 𝙆𝙃𝙐𝙍𝙐𝙎𝙃𝙄-𝙈𝘿 | 𝘼𝙇𝙇 𝙍𝙀𝙑𝙀𝙍𝙎𝙀𝘿',
   mentions: await conn.parseMention(tek),
-  title: `${htki} *LIST MENU* ${htka}`,
+  title: `${htki} 𝐋𝐈𝐒𝐓 𝐌𝐄𝐍𝐔 ${htka}`,
   buttonText: `KLIK DISINI `, 
   sections
 }

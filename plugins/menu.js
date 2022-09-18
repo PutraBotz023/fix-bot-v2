@@ -216,21 +216,21 @@ let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
     let mpt = clockString(_mpt)
       const sections = [
    {
-	title: `${htki} 𝗜𝗡𝗙𝗢 𝗕𝗢𝗧 ${htka}`,
+	title: `${htki} MAIN ${htka}`,
 	rows: [
 	    {title: `⚡ ${pmenus} SPEED BOT`, rowId: ".speed", description: "Menampilkan kecepatan respon BOT"},
 	    {title: `💌 ${pmenus} OWNER BOT`, rowId: ".owner", description: "Menampilkan List owner BOT"},
 	    {title: `📔 ${pmenus} SCRIPT BOT`, rowId: ".sc", description: `Source Code ${namebot}`},
 	]
     },{
-	title: `${htki} 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 𝗠𝗘 ${htka}`,
+	title: `${htki} SUPPORT ${htka}`,
 	rows: [
 	    {title: `🔖 ${pmenus} SEWA`, rowId: ".sewa", description: "Menampilkan list harga sewa BOT"},
 	    {title: `🌟 ${pmenus} BUY PREMIUM`, rowId: ".premium", description: "Menampilkan list harga premium"},
 	    {title: `💹 ${pmenus} DONASI`, rowId: ".donasi", description: 'Support BOT agar lebih fast respon'},
 	]
 	},{
-	title: `${htki} 𝗠𝗘𝗡𝗨 ${htka}`,
+	title: `${htki} MENU ${htka}`,
 	rows: [
 	    {title: `💬 ${pmenus} All`, rowId: ".? all", description: "Menampilkan Semua command BOT"},
 	    {title: `🌱 ${pmenus} Rpg`, rowId: ".? rpg", description: "Game Epic Rpg!"},
@@ -271,11 +271,9 @@ let tek = `*${ucapan()} ${conn.getName(m.sender)}*
 ┊│☠︎︎ Terima Kasih Telah Menggunakan Bot Kami
 │└────────────────────┈ ⳹
 │   「 𝐛𝐨𝐭 𝐢𝐧𝐟𝐨 」
-│ ⬡ 𝐮𝐩𝐭𝐢𝐦𝐞 : ${mpt}
 │ ⬡ 𝐫𝐮𝐧𝐧𝐢𝐧𝐠 𝐛𝐨𝐭 : Panel/RDP
 │ ⬡ 𝐛𝐚𝐢𝐥𝐞𝐲𝐬 𝐯𝐞𝐫𝐬𝐢𝐨𝐧 : 4.4.0
-│ ⬡ 𝐝𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : %rtotalreg dari %totalreg
-│ ⬡ 𝐦𝐞𝐦𝐨𝐫𝐲 𝐮𝐬𝐞𝐝 : ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+│ ⬡ 𝐝𝐚𝐭𝐚𝐛𝐚𝐬𝐞 : 1509 dari 20078
 ┗────────────────────┈ ⳹
 ┗ ────────────────────┈ ⳹
 ┊   「 𝐮𝐬𝐞𝐫 𝐢𝐧𝐟𝐨 ︎ 」

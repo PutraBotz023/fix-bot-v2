@@ -30,26 +30,26 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 /*============== SOCIAL ==============*/
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
-global.sig = 'https://instagram.com/RiellGanzz'
+global.sig = 'https://instagram.com/misteri_patrol'
 global.sgh = 'github.com/RiellTod1' //github
 global.sgc = 'https://chat.whatsapp.com/Iu9I1k8FnXW1sXT41XIF50' //group whatsapp
 global.sdc = '-' //discord
 global.snh = 'https://www.youtube.com/RIELLBOTZ OFFC' // my youtube channel
 
 /*============== PAYMENT ==============*/
-global.pdana = '6281352724422' //dana
+global.pdana = '6283856051043' //dana
 global.povo = '-' //ovo
 global.pgopay = '-' //gopay
 global.plinkaja = '-' //link aja
-global.ppulsa = '082146218274' //telkomsel
-global.ppulsa2 = '083813417529' // kalau ada kartu lain isi aja
+global.ppulsa = '083840600765' //Axais
+global.ppulsa2 = '083840600765' // kalau ada kartu lain isi aja
 global.psaweria = 'https://saweria.com/Khurushi'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6283813417529'
-global.nomorown = '082146218274'
-global.namebot = '𝘒𝘏𝘜𝘙𝘜𝘚𝘏𝘐-𝘔𝘋'
-global.nameown = '𝘙𝘪𝘦𝘭𝘭𝘎𝘢𝘯𝘻𝘻-𝘥𝘦𝘷'
+global.nomorbot = '6283840600765'
+global.nomorown = '083840600765'
+global.namebot = 'PUTRA-𝘔𝘋'
+global.nameown = 'Putz𝘎𝘢𝘯𝘻𝘻-𝘥𝘦𝘷'
 
 /*============== APIKEY SIMPEL ==============*/
 global.zenzkey = 'b8040941f7'
@@ -58,10 +58,10 @@ global.lolkey = '8e66d0934cf741bfd2182c16' // PUNYA WAHID 357d3c85079c4e0818731e
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6282146218274', '𝘙𝘪𝘦𝘭𝘭𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true],
-  ['6282146218274', '𝘙𝘪𝘦𝘭𝘭𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true],
-  ['6282146218274', '𝘙𝘪𝘦𝘭𝘭𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true],
-  ['6282146218274', '𝘙𝘪𝘦𝘭𝘭𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true] //Ganti jd nomormu sama Namamu
+  ['6283840600765', 'Putz𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true],
+  ['6283840600765', 'Putz𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true],
+  ['6283840600765', 'Putz𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true],
+  ['6283840600765', 'Putz𝘎𝘢𝘯𝘻𝘻-𝘋𝘦𝘷', true] //Ganti jd nomormu sama Namamu
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -109,13 +109,13 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 𝙆𝙃𝙐𝙍𝙐𝙎𝙃𝙄-𝙈𝘿 𝙑1 」' //Main Watermark
-global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘𝙆𝙃𝙐𝙍𝙐𝙎𝙃𝙄-𝙈𝘿 𝙑1 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
-global.wm3 = '⫹⫺ 𝙆𝙃𝙐𝙍𝙐𝙎𝙃𝙄-𝙈𝘿 𝙑1 '
+global.wm = '                「 PUTRA-𝙈𝘿 𝙑1 」' //Main Watermark
+global.wm2 = '꒷︶꒷꒥꒷ ‧₊˚ ꒰ฅ˘PUTRA-𝙈𝘿 𝙑1 ˘ฅ ꒱ ‧₊˚꒷︶꒷꒥꒷'
+global.wm3 = '⫹⫺ PUTRA-𝙈𝘿 𝙑1 '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
 global.titlebot = `⫹⫺ WhatsApp Bot | By 𝘙𝘪𝘦𝘭𝘭𝘎𝘢𝘯𝘻𝘻 𝘋𝘦𝘷`
-global.author = '                「 𝙆𝙃𝙐𝙍𝙐𝙎𝙃𝙄-𝙈𝘿 𝙑1  あ」'
+global.author = '                「 PUTRA-𝙈𝘿 𝙑1  あ」'
 
 
 /*============== LOGO ==============*/
@@ -189,7 +189,7 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = '𝐊𝐇𝐔𝐑𝐔𝐒𝐇𝐈'
+global.stickpack = 'PUTRA'
 global.stickauth = `𝐖𝐡𝐚𝐬𝐭𝐚𝐩𝐩 𝐛𝐨𝐭𝐳`
 
 global.multiplier = 38 // The higher, The harder levelup
